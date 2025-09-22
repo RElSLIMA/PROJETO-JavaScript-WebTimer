@@ -81,7 +81,7 @@ PROJETO-JavaScript-WebTimer/
    npm install -g http-server
    http-server .
    ```
-   > Acesse em: [http://localhost:8080](http://localhost:8080)  
+   > Acesse em: [http://localhost:8000](http://localhost:8000)  
 
 ---
 
