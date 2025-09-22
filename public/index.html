@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Timer Regressivo</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#4caf50">
+    </head>
+    <body>
+        <div id="lang-selector">
+            <select id="lang" title="{{title_select_lang}}">
+                <option value="pt-br">🇧🇷 PT-BR</option>
+                <option value="en-us">🇺🇸 EN-US</option>
+            </select>
+        </div>
+
+        <div id="install-btn-container">
+            <button id="installBtn" style="display:none;" title="{{title_install_btn}}">{{btn_install}}</button>
+        </div>
+
+        <div class="container">
+            <h1>{{title}}</h1>
+
+            <div class="inputs-container">
+                <div>
+                    <label>{{label_hours}}</label>
+                    <input type="number" id="horas" min="0" value="0">
+                </div>
+                <div>
+                    <label>{{label_minutes}}</label>
+                    <input type="number" id="minutos" min="0" max="59" value="0">
+                </div>
+                <div>
+                    <label>{{label_seconds}}</label>
+                    <input type="number" id="segundos" min="0" max="59" value="0">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="startBtn" title="{{title_btn_start}}">{{btn_start}}</button>
+                <button id="pauseBtn" title="{{title_btn_pause}}">{{btn_pause}}</button>
+                <button id="resetBtn" title="{{title_btn_reset}}">{{btn_reset}}</button>
+                <button id="clearBtn" title="{{title_btn_clear}}">{{btn_clear}}</button>
+                <button id="stopAlarmBtn" style="display:none;">{{btn_stop_alarm}}</button>
+            </div>
+
+            <h2 id="display">00:00:00</h2>
+
+            <div id="sugestoes">
+                <h3>{{last_timers}}</h3>
+                <ul id="lista-sugestoes"></ul>
+            </div>
+        </div>
+
+        <footer id="creditos">{{footer_credit}}</footer>
+
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>

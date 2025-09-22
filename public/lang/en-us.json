@@ -1,0 +1,22 @@
+{
+  "title": "Countdown Timer",
+  "label_hours": "Hours",
+  "label_minutes": "Minutes",
+  "label_seconds": "Seconds",
+  "btn_install": "📥 Install",
+  "btn_resume": "Resume",
+  "btn_start": "Start",
+  "btn_stop_alarm": "Stop Alarm",
+  "btn_pause": "Pause",
+  "btn_reset": "Reset",
+  "btn_clear": "Clear",
+  "footer_credit": "Created by: <a href='https://www.linkedin.com/in/gabriel-reis-b8b152198/' target='_blank'><svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 24 24' style='vertical-align:middle; margin-right:4px;'><path d='M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 10.268h-3v-4.5c0-1.104-.896-2-2-2s-2 .896-2 2v4.5h-3v-9h3v1.293c.584-.874 1.659-1.293 2.75-1.293 2.206 0 4 1.794 4 4v5z'/></svg>Gabriel Reis Lima de Carvalho</a>",
+  "last_timers": "Last used timers",
+  "time_up": "Time is up!",
+  "title_select_lang": "Select language",
+  "title_btn_start": "Start the countdown",
+  "title_btn_pause": "Pause the countdown",
+  "title_btn_reset": "Reset the timer to zero",
+  "title_btn_clear": "Clear the hours, minutes and seconds fields",
+  "title_install_btn": "Install Countdown Timer as app"
+}

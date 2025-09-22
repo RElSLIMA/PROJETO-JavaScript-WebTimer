@@ -1,0 +1,25 @@
+{
+  "name": "projeto-javascript-webtimer",
+  "version": "1.0.0",
+  "description": "Aplicação web de timer regressivo desenvolvida em JavaScript. O projeto inclui funcionalidades de controle (iniciar, pausar, resetar) e pode ser usado diretamente no navegador, servindo como estudo e prática de manipulação de DOM e lógica de tempo em JS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RElSLIMA/PROJETO-JavaScript-WebTimer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RElSLIMA/PROJETO-JavaScript-WebTimer/issues"
+  },
+  "homepage": "https://github.com/RElSLIMA/PROJETO-JavaScript-WebTimer#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

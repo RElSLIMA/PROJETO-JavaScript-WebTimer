@@ -1,0 +1,20 @@
+{
+  "name": "Timer Regressivo",
+  "short_name": "Timer",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4caf50",
+  "icons": [
+    {
+      "src": "icons/timer.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/timer.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

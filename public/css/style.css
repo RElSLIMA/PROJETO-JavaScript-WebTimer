@@ -1,0 +1,164 @@
+body {
+  opacity: 0;
+  transition: opacity 0.2s;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#lang-selector {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs-container {
+  display: flex;
+  gap: 20px;
+  margin: 15px 0;
+  justify-content: center;
+}
+
+.inputs-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 90px;
+  padding: 10px;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button {
+  padding: 14px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#pauseBtn.ativo {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+#display {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 25px 0;
+  text-align: center;
+}
+
+#sugestoes {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#lista-sugestoes {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+#lista-sugestoes li {
+  background-color: #e0e0e0;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+#lista-sugestoes li:hover {
+  background-color: #c0c0c0;
+  transform: scale(1.05);
+}
+
+#creditos {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #555;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 6px 12px;
+  border-radius: 6px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#creditos a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#creditos a:hover {
+  text-decoration: underline;
+}
+
+#creditos a img {
+  width: 16px;
+  height: 16px;
+}
+
+#install-btn-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#installBtn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#installBtn:hover {
+    background-color: #388e3c;
+}
