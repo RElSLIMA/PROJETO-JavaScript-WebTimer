@@ -83,6 +83,8 @@ PROJETO-JavaScript-WebTimer/
    ```
    > Acesse em: [http://localhost:8000](http://localhost:8000)  
 
+3. > Acesse em: [projeto-javascript-webtimer.netlify.app](projeto-javascript-webtimer.netlify.app)  
+
 ---
 
 ## 📱 PWA – Instalação  
