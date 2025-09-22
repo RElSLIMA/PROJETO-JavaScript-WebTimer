@@ -83,7 +83,9 @@ PROJETO-JavaScript-WebTimer/
    ```
    > Acesse em: [http://localhost:8000](http://localhost:8000)  
 
-3. > Acesse em: [projeto-javascript-webtimer.netlify.app](projeto-javascript-webtimer.netlify.app)  
+3. Você pode usar o Timer diretamente no navegador, sem precisar instalar nada!:  
+
+   > Acesse em: [https://projeto-javascript-webtimer.netlify.app](https://projeto-javascript-webtimer.netlify.app)   
 
 ---
 
